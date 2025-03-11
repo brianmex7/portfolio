@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About Me Section -->
+      <section id="about">
+        <h1>About Me</h1>
+        <div class="about-content">
+          <img src="./sources/IMG_0310.jpg" alt="Your Picture" />
+          <p>
+            Hello! I'm a passionate web developer eager to create impactful and
+            user-friendly websites. My focus is on building responsive, clean,
+            and functional designs.
+          </p>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <h1>Projects</h1>
+        <div class="projects-grid">
+          <a
+            href="https://brianbustos.huskisites.com/webm1001/foodtrackapp/"
+            target="_blank"
+          >
+            <img src="./sources/foodtracking.png" alt="Food Tracking App" />
+            <p>Food Tracking App</p>
+          </a>
+          <a
+            href="https://brianbustos.huskisites.com/webm1001/drone/part6/#"
+            target="_blank"
+          >
+            <img src="./sources/drone website.png" alt="Drone Website" />
+            <p>Drone Front End Website</p>
+          </a>
+        </div>
+      </section>
+
+      <!-- Contact Me Section -->
+      <section id="contact">
+        <h1>Contact Me</h1>
+        <form
+          action="https://formsubmit.com/brianmexico77@gmail.com"
+          method="POST"
+        >
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Brian Bustos. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
